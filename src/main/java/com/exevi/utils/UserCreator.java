@@ -1,6 +1,5 @@
 package com.exevi.utils;
 
-import com.sun.istack.internal.NotNull;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.RandomUtils;
@@ -35,17 +34,17 @@ public class UserCreator
     }
 
 
-    protected static String newPassword()
+    public static String newPassword()
     {
         return newPassword(defaultNumChars);
     }
 
-    protected static String newPassword(int numChars)
+    public static String newPassword(int numChars)
     {
         return RandomStringUtils.randomAlphabetic(numChars);
     }
 
-    protected static String newPasswordHash(String password)
+    public static String newPasswordHash(String password)
     {
         return DigestUtils.sha256Hex(password);
     }
