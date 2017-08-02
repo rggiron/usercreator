@@ -2,7 +2,6 @@ package com.exevi.utils;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.commons.lang3.RandomUtils;
 
 import java.util.HashMap;
 import java.util.List;

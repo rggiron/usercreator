@@ -1,0 +1,10 @@
+/target/
+/src/main/webapp/WEB-INF/classes/**
+/.idea/
+src/main/webapp/WEB-INF/classes/
+src/main/webapp/WEB-INF/error/
+/.classpath
+/.project
+/.settings/
+*.iml
+/src/main/webapp/META-INF/MANIFEST.MF
